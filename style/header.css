@@ -1,3 +1,4 @@
+/* line 3, themes/hexo-theme-memory/source/style/header.scss */
 #header {
   position: relative;
   width: 100%;
@@ -7,8 +8,10 @@
   transition: all 0.24s ease;
   z-index: 3; }
   @media (prefers-color-scheme: dark) {
+    /* line 3, themes/hexo-theme-memory/source/style/header.scss */
     #header {
       border-top-color: #080c10; } }
+  /* line 16, themes/hexo-theme-memory/source/style/header.scss */
   #header #header-wrapper {
     position: relative;
     width: 100%;
@@ -19,10 +22,12 @@
     padding: 0 20px;
     z-index: 3; }
     @media (prefers-color-scheme: dark) {
+      /* line 16, themes/hexo-theme-memory/source/style/header.scss */
       #header #header-wrapper {
         background-color: #15202b;
         border-bottom: 0;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } }
+  /* line 33, themes/hexo-theme-memory/source/style/header.scss */
   #header #logo {
     position: absolute;
     display: block;
@@ -35,17 +40,21 @@
     padding: 10px 0 12px 0;
     transition: all 0.36s; }
     @media (prefers-color-scheme: dark) {
+      /* line 33, themes/hexo-theme-memory/source/style/header.scss */
       #header #logo {
         background-color: #101821; } }
     @media (prefers-color-scheme: dark) {
+      /* line 49, themes/hexo-theme-memory/source/style/header.scss */
       #header #logo:hover {
         background-color: #0b1116; } }
     @media (max-width: 820px) {
+      /* line 33, themes/hexo-theme-memory/source/style/header.scss */
       #header #logo {
         width: 140px;
         height: 70px;
         margin-left: -70px;
         padding: 10px 0; } }
+    /* line 62, themes/hexo-theme-memory/source/style/header.scss */
     #header #logo img {
       display: block;
       width: 70px;
@@ -53,8 +62,10 @@
       margin: 0 auto;
       transition: all 0.24s; }
       @media (max-width: 820px) {
+        /* line 62, themes/hexo-theme-memory/source/style/header.scss */
         #header #logo img {
           width: 50px; } }
+    /* line 73, themes/hexo-theme-memory/source/style/header.scss */
     #header #logo #site-desc {
       display: block;
       text-align: center;
@@ -62,8 +73,10 @@
       font-size: 12px;
       transition: all 0.24s; }
       @media (max-width: 820px) {
+        /* line 73, themes/hexo-theme-memory/source/style/header.scss */
         #header #logo #site-desc {
           font-size: 12px; } }
+  /* line 85, themes/hexo-theme-memory/source/style/header.scss */
   #header #site-nav-switch {
     position: relative;
     border: 0;
@@ -75,7 +88,9 @@
     cursor: pointer;
     transition: all 0.24s ease; }
     @media (prefers-color-scheme: dark) {
+      /* line 85, themes/hexo-theme-memory/source/style/header.scss */
       #header #site-nav-switch {
         color: #90acc9; } }
+    /* line 100, themes/hexo-theme-memory/source/style/header.scss */
     #header #site-nav-switch.active {
       transform: rotate(90deg); }

@@ -1,3 +1,4 @@
+/* line 3, themes/hexo-theme-memory/source/style/button.scss */
 .dark-btn {
   display: inline-block;
   background: rgba(0, 0, 0, 0.3);
@@ -8,20 +9,25 @@
   text-align: center;
   color: #c2c2c2; }
   @media (prefers-color-scheme: dark) {
+    /* line 3, themes/hexo-theme-memory/source/style/button.scss */
     .dark-btn {
       color: #90acc9; } }
+  /* line 17, themes/hexo-theme-memory/source/style/button.scss */
   .dark-btn:hover {
     color: #282828;
     background-color: #ff9800; }
     @media (prefers-color-scheme: dark) {
+      /* line 17, themes/hexo-theme-memory/source/style/button.scss */
       .dark-btn:hover {
         color: #0d131a;
         background-color: #009688; } }
+  /* line 26, themes/hexo-theme-memory/source/style/button.scss */
   .dark-btn .icon {
     margin-right: 5px;
     font-size: 16px;
     vertical-align: middle;
     line-height: 40px; }
+  /* line 32, themes/hexo-theme-memory/source/style/button.scss */
   .dark-btn .text {
     vertical-align: middle;
     line-height: 40px; }

@@ -1,3 +1,4 @@
+/* line 3, themes/hexo-theme-memory/source/style/footer.scss */
 #footer {
   position: relative;
   padding: 0 20px 30px 20px;
@@ -12,60 +13,79 @@
   transition: all 0.4s ease;
   z-index: 3; }
   @media (prefers-color-scheme: dark) {
+    /* line 3, themes/hexo-theme-memory/source/style/footer.scss */
     #footer {
       color: #5079a3; } }
+  /* line 20, themes/hexo-theme-memory/source/style/footer.scss */
   #footer.loaded {
     transform: translate3d(0px, 0px, 0px);
     opacity: 1; }
+  /* line 24, themes/hexo-theme-memory/source/style/footer.scss */
   #footer .codename {
     color: #cc7a00; }
     @media (prefers-color-scheme: dark) {
+      /* line 24, themes/hexo-theme-memory/source/style/footer.scss */
       #footer .codename {
         color: #007d71; } }
+  /* line 31, themes/hexo-theme-memory/source/style/footer.scss */
   #footer .social-wrapper {
     padding-top: 20px; }
+  /* line 34, themes/hexo-theme-memory/source/style/footer.scss */
   #footer .theme-by {
     font-size: 12px; }
+  /* line 37, themes/hexo-theme-memory/source/style/footer.scss */
   #footer a {
     color: #828282; }
     @media (prefers-color-scheme: dark) {
+      /* line 37, themes/hexo-theme-memory/source/style/footer.scss */
       #footer a {
         color: #90acc9; } }
+    /* line 43, themes/hexo-theme-memory/source/style/footer.scss */
     #footer a:hover {
       color: #f08f00;
       background-color: rgba(255, 152, 0, 0.1); }
       @media (prefers-color-scheme: dark) {
+        /* line 43, themes/hexo-theme-memory/source/style/footer.scss */
         #footer a:hover {
           color: #00877a;
           background-color: rgba(0, 150, 136, 0.1); } }
+    /* line 52, themes/hexo-theme-memory/source/style/footer.scss */
     #footer a.social {
       position: relative;
       display: inline-block;
       text-align: center;
       font-size: 16px;
       margin: 0 5px; }
+      /* line 59, themes/hexo-theme-memory/source/style/footer.scss */
       #footer a.social:hover {
         background: transparent;
         color: #009688; }
+      /* line 63, themes/hexo-theme-memory/source/style/footer.scss */
       #footer a.social.github:hover {
         color: #467cc2; }
+      /* line 66, themes/hexo-theme-memory/source/style/footer.scss */
       #footer a.social.google:hover {
         color: #db4437; }
+      /* line 69, themes/hexo-theme-memory/source/style/footer.scss */
       #footer a.social.twitter:hover {
         color: #55acee; }
+      /* line 72, themes/hexo-theme-memory/source/style/footer.scss */
       #footer a.social.weibo:hover {
         color: #f8712a; }
 
+/* line 79, themes/hexo-theme-memory/source/style/footer.scss */
 .search {
   position: relative;
   width: 100%;
   max-width: 100%;
   margin: 0 auto 20px auto;
   z-index: 2; }
+  /* line 86, themes/hexo-theme-memory/source/style/footer.scss */
   .search #searchform {
     position: relative;
     display: block;
     width: 100%; }
+    /* line 91, themes/hexo-theme-memory/source/style/footer.scss */
     .search #searchform #u-search-btn-submit {
       display: block;
       position: absolute;
@@ -77,8 +97,10 @@
       color: white;
       border: 0;
       text-align: center; }
+      /* line 103, themes/hexo-theme-memory/source/style/footer.scss */
       .search #searchform #u-search-btn-submit span {
         line-height: 36px; }
+  /* line 108, themes/hexo-theme-memory/source/style/footer.scss */
   .search #searchinput {
     width: 100%;
     padding: 0 10px;
@@ -95,9 +117,11 @@
     box-shadow: none;
     transition: all 0.24s ease; }
     @media (prefers-color-scheme: dark) {
+      /* line 108, themes/hexo-theme-memory/source/style/footer.scss */
       .search #searchinput {
         color: #90acc9;
         background: #15202b; } }
+    /* line 128, themes/hexo-theme-memory/source/style/footer.scss */
     .search #searchinput:focus {
       background: #040709;
       border-color: #000000; }

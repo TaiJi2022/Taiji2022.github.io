@@ -1,3 +1,4 @@
+/* line 3, themes/hexo-theme-memory/source/style/post.scss */
 #main {
   position: relative;
   width: 100%;
@@ -7,31 +8,40 @@
   opacity: 0;
   transform: translate3d(0px, -20px, 0px);
   transition: all 0.24s ease; }
+  /* line 13, themes/hexo-theme-memory/source/style/post.scss */
   #main.loaded {
     transform: translate3d(0px, 0px, 0px);
     opacity: 1; }
   @media (max-width: 820px) {
+    /* line 3, themes/hexo-theme-memory/source/style/post.scss */
     #main {
       padding: 0 20px; } }
+  /* line 20, themes/hexo-theme-memory/source/style/post.scss */
   #main .post-list {
     position: relative;
     width: 760px;
     margin: 0 auto; }
     @media (max-width: 820px) {
+      /* line 20, themes/hexo-theme-memory/source/style/post.scss */
       #main .post-list {
         width: 100%; } }
+    /* line 28, themes/hexo-theme-memory/source/style/post.scss */
     #main .post-list .post {
       margin-bottom: 50px; }
+  /* line 32, themes/hexo-theme-memory/source/style/post.scss */
   #main .page-header {
     text-align: center;
     margin: 0 auto 20px auto; }
+    /* line 36, themes/hexo-theme-memory/source/style/post.scss */
     #main .page-header h1 {
       font-size: 13px;
       font-weight: normal;
       color: #b5b5b5; }
       @media (prefers-color-scheme: dark) {
+        /* line 36, themes/hexo-theme-memory/source/style/post.scss */
         #main .page-header h1 {
           color: #3f6081; } }
+  /* line 47, themes/hexo-theme-memory/source/style/post.scss */
   #main #comments {
     position: relative;
     padding: 30px;
@@ -39,13 +49,17 @@
     background-color: #ffffff;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
     @media (prefers-color-scheme: dark) {
+      /* line 47, themes/hexo-theme-memory/source/style/post.scss */
       #main #comments {
         background-color: #15202b; } }
     @media (max-width: 820px) {
+      /* line 47, themes/hexo-theme-memory/source/style/post.scss */
       #main #comments {
         padding: 20px; } }
+    /* line 61, themes/hexo-theme-memory/source/style/post.scss */
     #main #comments.page {
       margin-top: 20px; }
+  /* line 65, themes/hexo-theme-memory/source/style/post.scss */
   #main .post {
     position: relative;
     margin-bottom: 30px;
@@ -53,40 +67,52 @@
     background-color: #ffffff;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
     @media (prefers-color-scheme: dark) {
+      /* line 65, themes/hexo-theme-memory/source/style/post.scss */
       #main .post {
         background-color: #15202b; } }
+    /* line 76, themes/hexo-theme-memory/source/style/post.scss */
     #main .post.no-title {
       padding: 20px 0; }
+      /* line 79, themes/hexo-theme-memory/source/style/post.scss */
       #main .post.no-title > time {
         text-align: left;
         padding-left: 30px;
         margin: 0; }
         @media (max-width: 820px) {
+          /* line 79, themes/hexo-theme-memory/source/style/post.scss */
           #main .post.no-title > time {
             padding-left: 20px; } }
+    /* line 89, themes/hexo-theme-memory/source/style/post.scss */
     #main .post:last-child, #main .post.single, #main .post#archive-page {
       margin-bottom: 0; }
+    /* line 94, themes/hexo-theme-memory/source/style/post.scss */
     #main .post > .title {
       display: block;
       text-align: center;
       font-size: 1.25em;
       padding: 0 20px; }
       @media (max-width: 820px) {
+        /* line 94, themes/hexo-theme-memory/source/style/post.scss */
         #main .post > .title {
           font-size: 1em; } }
+      /* line 103, themes/hexo-theme-memory/source/style/post.scss */
       #main .post > .title a {
         display: inline;
         line-height: 1.25;
         font-weight: normal;
         color: #464646; }
         @media (prefers-color-scheme: dark) {
+          /* line 103, themes/hexo-theme-memory/source/style/post.scss */
           #main .post > .title a {
             color: #a1b9d1; } }
+        /* line 113, themes/hexo-theme-memory/source/style/post.scss */
         #main .post > .title a:hover {
           color: #00a596; }
           @media (prefers-color-scheme: dark) {
+            /* line 113, themes/hexo-theme-memory/source/style/post.scss */
             #main .post > .title a:hover {
               color: #ffa21a; } }
+    /* line 122, themes/hexo-theme-memory/source/style/post.scss */
     #main .post > time {
       display: block;
       text-align: center;
@@ -94,19 +120,24 @@
       font-size: 0.75em;
       margin-bottom: 30px; }
       @media (prefers-color-scheme: dark) {
+        /* line 122, themes/hexo-theme-memory/source/style/post.scss */
         #main .post > time {
           color: #3f6081; } }
+    /* line 133, themes/hexo-theme-memory/source/style/post.scss */
     #main .post .image {
       position: relative;
       width: 100%;
       margin: 20px 0; }
+      /* line 138, themes/hexo-theme-memory/source/style/post.scss */
       #main .post .image a {
         display: block; }
+      /* line 141, themes/hexo-theme-memory/source/style/post.scss */
       #main .post .image img {
         position: relative;
         display: block;
         width: 104%;
         margin: 0 -2%;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+    /* line 149, themes/hexo-theme-memory/source/style/post.scss */
     #main .post .readmore {
       margin-top: 20px; }
